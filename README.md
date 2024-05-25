@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Google Calendar Clone with TypeScript and React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This was the first project I built using TypeScript and React by way of vite. Types and PropTypes were completely new to me but I am much more confident after taking the TypeScript course offered by [WebDevSimplified](https://courses.webdevsimplified.com/).
 
-Currently, two official plugins are available:
+The app is pretty straight forward. All of the styles are custom, as well as the animation creating an event. It uses the date-fns library to help manipulate dates and uses local storage to persist data through refreshes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A user can save and edit events to any given calendar day, and set them to either all day or a custom time.
 
-## Expanding the ESLint configuration
+# Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run the app locally, type the command "npm run dev" in the terminal from the root of the project
 
-- Configure the top-level `parserOptions` property like this:
+# Links
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+LInk to repository in [github](https://github.com/mjay88/google-calender-clone-typescript)
